@@ -1,0 +1,83 @@
+/* share related styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@800&family=Poppins:wght@400;600;700&family=Work+Sans:wght@700&display=swap");
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar related styles */
+
+header {
+  background: rgb(249, 240, 223);
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  width: 50%;
+  gap: 5px;
+}
+
+.logo-container p {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.word-color {
+  color: #ff42a5;
+}
+
+.logo-container img {
+  width: 75px;
+  object-fit: contain;
+}
+
+.nav-item-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-item-container a {
+  color: #3c354f;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+#follow-us {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .nav-container,
+  .nav-item-container {
+    flex-direction: column;
+  }
+  .nav-item-container {
+    margin-top: 10px;
+  }
+
+  .nav-item-container a {
+    margin: 10px;
+  }
+}
