@@ -283,6 +283,39 @@ header {
   font-weight: 600;
 }
 
+/* footer related style */
+footer {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #0b0223;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-container p {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.footer-container img {
+  margin-top: 30px;
+}
+.span {
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 576px) {
   .nav-container,
   .nav-item-container {
@@ -344,5 +377,9 @@ header {
   }
   .position-img img {
     bottom: 100px;
+  }
+
+  .span {
+    flex-direction: column-reverse;
   }
 }
