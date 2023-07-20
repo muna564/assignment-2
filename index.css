@@ -202,6 +202,7 @@ header {
 }
 
 /* overlay related styles */
+
 .images {
   position: relative;
 }
@@ -296,6 +297,7 @@ header {
 }
 
 /* hard related styles */
+
 .section-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -399,6 +401,9 @@ footer {
   margin-top: 20px;
   color: #fff;
 }
+
+/* media responsive related styles */
+
 @media screen and (max-width: 576px) {
   .nav-container,
   .nav-item-container,
@@ -446,7 +451,7 @@ footer {
   }
 
   .banner-content h2 {
-    font-size: 30;
+    font-size: 25px;
   }
 
   .banner-section p {
