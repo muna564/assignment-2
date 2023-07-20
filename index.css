@@ -405,6 +405,22 @@ footer {
   .footer-title {
     flex-direction: column;
   }
+
+  .logo-container img {
+    width: 60px;
+  }
+
+  .logo-container p {
+    font-size: 30px;
+  }
+
+  .nav-item-container a {
+    font-size: 10px;
+  }
+
+  #follow-us {
+    padding: 5px;
+  }
   .nav-item-container {
     margin-top: 10px;
   }
@@ -470,13 +486,14 @@ footer {
   .section-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
   }
 
   .img-content img {
-    width: 25px;
+    width: 20px;
   }
 
   .img-content p {
-    font-size: 10px;
+    font-size: 5px;
   }
 }
