@@ -277,12 +277,18 @@ header {
 }
 
 .img-content {
+  border-radius: 50px;
+  background: #f5ecec;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
 }
 
+.img-hov:hover {
+  background: #ff42a5;
+  cursor: pointer;
+}
 .img-content img {
   width: 30px;
 }
