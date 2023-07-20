@@ -66,6 +66,7 @@ header {
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   padding: 10px;
+  margin-left: 3px;
 }
 
 /* banner section styles */
@@ -251,38 +252,46 @@ header {
   margin-left: 20px;
 }
 
-/* wrap related styles */
-
+/* hard related styles */
 .section-container {
-  min-height: 100px;
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  padding: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 50px;
+  padding: 20px;
 }
 
-.section-img {
-  flex-basis: 300px;
+.section-content-1 {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.section-content-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.img-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 5px;
 }
 
-.section-img img {
+.img-content img {
   width: 30px;
-  height: 30px;
 }
 
-.section-img p {
+.img-content p {
   color: #0b0223;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 600;
 }
-
 /* footer related style */
 
 footer {
@@ -291,7 +300,7 @@ footer {
 .footer-container {
   min-height: 50px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 50px auto 0;
   padding: 20px;
 }
 
@@ -404,5 +413,10 @@ footer {
   }
   .position-img img {
     bottom: 100px;
+  }
+
+  .section-content-1,
+  .section-content-2 {
+    flex-direction: column;
   }
 }
